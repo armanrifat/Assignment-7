@@ -8,7 +8,19 @@
       <script src="https://cdn.tailwindcss.com"></script>
      <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800">
      
+     <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <div class="logo font-bold text-xl">🌴 Green Earth</div>
+      <nav class="hidden md:flex gap-6">
+        <a href="#home" class="hover:text-green-600">Home</a>
+        <a href="#about" class="hover:text-green-600">About</a>
+        <a href="#impact" class="hover:text-green-600">Our Impact</a>
+      </nav>
+      <button id="plantBtn" class="bg-green-600 text-white px-4 py-2 rounded">Plant a Tree</button>
+    </div>
+  </header>
 </body>
 </html>
